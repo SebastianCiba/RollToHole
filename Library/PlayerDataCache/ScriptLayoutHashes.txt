@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Mocarnyy/Desktop/RollToHole/RollToHole.exe
+C:/Users/Mocarnyy/Desktop/RollToHole/bin/bin.exe
 SceneListBegin?
 Assets/_Completed-Game/RollToHole.unity
 SceneListEnd?
