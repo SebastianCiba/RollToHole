@@ -1,5 +1,4 @@
-﻿//using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -15,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public Text winText;
     public Text moveText;
     public Button ButtonStart;
+    public Button ButtonExit;
+    public Button ButtonTryAgain;
     public RawImage Background;
     public GameObject exit;
 
@@ -31,10 +32,13 @@ public class PlayerController : MonoBehaviour
         moveText.text = "Moves: 0";
 
         Button ButtonStart1 = ButtonStart.GetComponent<Button>();
-        Background.gameObject.SetActive(true);
-
+        Button ButtonExit1 = ButtonExit.GetComponent<Button>();
+        Button ButtonTryAgain1 = ButtonTryAgain.GetComponent<Button>();
 
         ButtonStart1.onClick.AddListener(TaskOnClickStart);
+        ButtonExit1.onClick.AddListener(TaskOnClickExit);
+        ButtonTryAgain1.onClick.AddListener(TaskOnClickTryAgain);
+
         ButtonStart.gameObject.SetActive(true);
         Background.gameObject.SetActive(true);
         source = GetComponent<AudioSource>();
@@ -175,12 +179,12 @@ public class PlayerController : MonoBehaviour
     {
         round++;
         move = 0;
-        for (int i = 0; i < cube.Length ; i++)
+        for (int i = 0; i < cube.Length; i++)
         {
             Destroy(cube[i]);
         }
         winText.text = "";
-        
+
         ButtonStart.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
         rb.AddForce(0, 30, 0, ForceMode.Impulse);
@@ -203,9 +207,39 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void TaskOnClickExit()
+    {
+        Application.Quit();
+    }
+
+    void TaskOnClickTryAgain()
+    {
+        move = 0;
+        winText.text = "";
+
+        ButtonTryAgain.gameObject.SetActive(false);
+        Background.gameObject.SetActive(false);
+        rb.AddForce(0, 30, 0, ForceMode.Impulse);
+        switch (round)
+        {
+            case 1:
+                RoundOne();
+                break;
+            case 2:
+                RoundTwo();
+                break;
+            case 3:
+                RoundThree();
+                break;
+            default:
+                Background.gameObject.SetActive(true);
+                break;
+        }
+    }
+
     void OnCollisionEnter(Collision collision)
     {
-        
+
         if (collision.gameObject.CompareTag("CollisionBox"))
         {
             source.Play();
@@ -234,16 +268,22 @@ public class PlayerController : MonoBehaviour
         {
             source.Play();
             winText.text = "You Lose!";
-            ButtonStart.gameObject.SetActive(true);
+            ButtonTryAgain.gameObject.SetActive(true);
             Background.gameObject.SetActive(true);
         }
     }
 
     void FixedUpdate()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+
+        }
+
         if (touch == true)
         {
-            if (Input.GetKey("up") || Input.GetKey("w"))
+            if (Input.GetKeyDown("up") || Input.GetKeyDown("w"))
             {
                 rb.AddForce(0, 0, push, ForceMode.Impulse);
                 touch = false;
@@ -274,8 +314,10 @@ public class PlayerController : MonoBehaviour
                 move++;
                 moveText.text = "Moves: " + move.ToString();
             }
+
         }
     }
+
 
     // collision with obj with "Is Trigger" is checked
     //void OnTriggerEnter(Collider other)

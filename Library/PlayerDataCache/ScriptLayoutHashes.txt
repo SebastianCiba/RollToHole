@@ -19,7 +19,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 4e15dcc3534dc36a76ac419785cf197a Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
-67f8cc73bc81bb3917ec9fb7591d3c9f Assembly-CSharp.dll:.PlayerController
+0c172de56db5f7994fffc9c516d7521c Assembly-CSharp.dll:.PlayerController
 22bb40270d2bfc0d0884e2aefd3d1c60 Unity.TextMeshPro.dll:TMPro.TMP_Text
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
