@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     private AudioSource source;
     private Rounds rounds;
 
-    public float push = 130;
-    protected float pull = -130;
+    private float push = 130;
+    private float pull = -130;
     protected bool touch = false;
     protected int round = 1;
 
@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Finish"))
         {
             push += 10;
-            pull += 10;
+            pull -= 10;
             source.Play();
             winText.text = "You Win!";
             ButtonStart.gameObject.SetActive(true);
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Lose"))
         {
             push -= 10;
-            pull -= 10;
+            pull += 10;
             source.Play();
             winText.text = "You Lose!";
             ButtonTryAgain.gameObject.SetActive(true);
@@ -175,9 +175,4 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
-
-//teleporty
-//dźwignie z przejściem
-//przejścia w jedną stronę
-//przeszkody ruchome
-//pola z kolcami
+//ruchome przeszkody
