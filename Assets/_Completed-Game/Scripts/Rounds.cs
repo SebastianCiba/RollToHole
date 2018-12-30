@@ -1,10 +1,64 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+using System.Linq;
 
 public class Rounds : PlayerController
 {
+    //List<Material> arrayOfMaterials = new List<Material>();
+
+    
+
+
     public GameObject exit;
+    //public Material[] mats;
+    //Material mcrate;
+    //Material mcrate2;
+    //Material m_Material;
+    //Material newMat = Resources.FindObjectsOfTypeAll("crate", typeof(Material)) as Material;
+    //Resources.FindObjectsOfTypeAll(typeof(Material))
+   
     public void StartRound()
     {
+        //mcrate = GetComponent<Material>();
+
+        //mcrate2 = GetComponent<Material>();
+
+        //m_Material = GetComponent<Material>();
+
+        //mcrate = Resources.Load<Material>("crate");
+
+        //m_Material = (Material)Resources.Load("Materials", m_Material.GetType());
+
+
+
+
+        //mcrate= Resources.Load("/Materials/crate", typeof(Material)) as Material;
+
+
+
+        //m_Material = (Material)Resources.Load("Material/Fence.mat", m_Material.GetType());
+        //for (int i = 0; i < arrayOfMaterials.Count; i++)
+        // arrayOfMaterials = (Material)Resources.LoadAll("Materials", mcrate.GetType());
+        //arrayOfMaterials = (Material)Resources.LoadAll("qweqe", mcrate.GetType());
+        //GUILayout.Label("Total duplicate materials");
+        //for (int i = 0; i < arrayOfMaterials.Count; i++)
+        //{
+        //    //mcrate = Resources.Load("crate", typeof(Material)) as Material;
+
+        //    //EditorGUILayout.LabelField(i.ToString(), arrayOfMaterials[i].name);
+        //}
+
+        //foreach (Material c in Resources.FindObjectsOfTypeAll(typeof(Material)))
+        //{
+        //    arrayOfMaterials.Add(c);
+        //}
+
+        //mcrate = GetComponent<Renderer>().material;
+        ////m_Material = GetComponent<Renderer>().material;
+        ////m_Material = GetComponent<Renderer>().material;
+        //m_Material = GetComponent<Material>();
+
         for (int i = 0; i < cube.Length; i++)
         {
             Destroy(cube[i]);
@@ -32,11 +86,13 @@ public class Rounds : PlayerController
 
     public void RoundOne()
     {
+        //Material[] mats = Resources.LoadAll("Materials", typeof(Material)).Cast<Material>().ToArray();
         for (int i = 0; i < 5; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
+            cube[i].GetComponent<Renderer>().material.color = Color.blue;
         }
 
         cube[0].transform.position = new Vector3(4, 0.5f, 0);
@@ -57,6 +113,7 @@ public class Rounds : PlayerController
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
+            cube[i].GetComponent<Renderer>().material.color = Color.red;
         }
 
         cube[0].transform.position = new Vector3(5, 0.5f, 0);
@@ -96,6 +153,7 @@ public class Rounds : PlayerController
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
+            cube[i].GetComponent<Renderer>().material.color = Color.green;
         }
 
         cube[0].transform.position = new Vector3(0, 0.5f, -2);
@@ -146,6 +204,7 @@ public class Rounds : PlayerController
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
+            cube[i].GetComponent<Renderer>().material.color = Color.cyan;
         }
 
         cube[0].transform.position = new Vector3(0, 0.5f, -2);

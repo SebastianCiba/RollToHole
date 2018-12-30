@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:RepositoryInfoCache
   cacheType: 1
-  lastUpdatedAtString: 2018-12-30T03:30:04.716+01:00
-  initializedAtString: 2018-12-30T03:03:15.703+01:00
+  lastUpdatedAtString: 2018-12-30T06:21:31.147+01:00
+  initializedAtString: 2018-12-30T06:21:31.147+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/SebastianCiba/RollToHole.git
