@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 7703438}
   - component: {fileID: 7703437}
   - component: {fileID: 7703439}
+  - component: {fileID: 7703440}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -212,14 +213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6565ea6141ea34a6f8b1b7ec81398f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 7703438}
+  rb: {fileID: 0}
   winText: {fileID: 2006921140}
   moveText: {fileID: 1880868247}
   ButtonStart: {fileID: 1850318534}
   ButtonExit: {fileID: 1880819106}
   ButtonTryAgain: {fileID: 1447980047}
   Background: {fileID: 11898270}
-  exit: {fileID: 215216190}
   cube:
   - {fileID: 0}
   - {fileID: 0}
@@ -371,6 +371,66 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7703440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7703432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba71f72dbd34f6e40b6c32fb8405ac85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 7703438}
+  winText: {fileID: 2006921140}
+  moveText: {fileID: 1880868247}
+  ButtonStart: {fileID: 1850318534}
+  ButtonExit: {fileID: 1880819106}
+  ButtonTryAgain: {fileID: 1447980047}
+  Background: {fileID: 11898270}
+  cube:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  exit: {fileID: 215216190}
 --- !u!1 &11898268
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +526,7 @@ GameObject:
   - component: {fileID: 215216192}
   - component: {fileID: 215216191}
   m_Layer: 0
-  m_Name: Exit
+  m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1258,7 +1318,7 @@ GameObject:
   - component: {fileID: 1550711536}
   - component: {fileID: 1550711538}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,6 +1481,18 @@ Prefab:
     - target: {fileID: 9500000, guid: 35d4cbfc2491ca340b41f5ae3a50fb90, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 35d4cbfc2491ca340b41f5ae3a50fb90, type: 3}
+      propertyPath: m_Name
+      value: Fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 35d4cbfc2491ca340b41f5ae3a50fb90, type: 3}
+      propertyPath: m_Name
+      value: BackRectangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 35d4cbfc2491ca340b41f5ae3a50fb90, type: 3}
+      propertyPath: m_Name
+      value: Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35d4cbfc2491ca340b41f5ae3a50fb90, type: 3}

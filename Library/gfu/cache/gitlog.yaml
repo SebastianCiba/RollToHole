@@ -12,9 +12,3519 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:GitLogCache
   cacheType: 3
-  lastUpdatedAtString: 2018-12-29T18:43:32.557+01:00
-  initializedAtString: 2018-12-29T18:43:32.520+01:00
+  lastUpdatedAtString: 2018-12-30T03:30:05.628+01:00
+  initializedAtString: 2018-12-30T03:29:36.792+01:00
   log:
+  - commitID: 57cc40b6ace9e3c72d6df6f8b8f4681735cf6bad
+    mergeA: 
+    mergeB: 
+    authorName: Sebastian Ciba
+    authorEmail: sebastian.ciba@o2.pl
+    commitEmail: sebastian.ciba@o2.pl
+    commitName: Sebastian Ciba
+    summary: 0.13
+    description: 0.13
+    timeString: 2018-12-29T20:50:28.000+01:00
+    commitTimeString: 2018-12-29T20:50:28.000+01:00
+    changes:
+    - path: .vs\RollToHole\v15\.suo
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\.suo
+      projectPath: .vs\RollToHole\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\RollToHole\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\RollToHole\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\RollToHole\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\RollToHole\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\FirstScene.unity
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\Scenes\FirstScene.unity
+      projectPath: Assets\Scenes\FirstScene.unity
+      originalPath: Assets\Scenes\SampleScene.unity
+      status: 6
+      staged: 0
+    - path: Assets\Scenes\FirstScene.unity.meta
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\Scenes\FirstScene.unity.meta
+      projectPath: Assets\Scenes\FirstScene.unity.meta
+      originalPath: Assets\Scenes\SampleScene.unity.meta
+      status: 6
+      staged: 0
+    - path: Assets\_Completed-Game\RollToHole.unity
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\RollToHole.unity
+      projectPath: Assets\_Completed-Game\RollToHole.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\_Completed-Game\Scripts\PlayerController.cs
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\Scripts\PlayerController.cs
+      projectPath: Assets\_Completed-Game\Scripts\PlayerController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      projectPath: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\globalgamemanagers
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Data\globalgamemanagers
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\globalgamemanagers.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\globalgamemanagers.assets
+      projectPath: Library\PlayerDataCache\Data\globalgamemanagers.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\level0
+      projectPath: Library\PlayerDataCache\Data\level0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\sharedassets0.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Data\sharedassets0.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\ScriptLayoutHashes.txt
+      projectPath: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\00\0000000000000000a100000000000000
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\00\0000000000000000a100000000000000
+      projectPath: Library\metadata\00\0000000000000000a100000000000000
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\65\6565ea6141ea34a6f8b1b7ec81398f64
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\65\6565ea6141ea34a6f8b1b7ec81398f64
+      projectPath: Library\metadata\65\6565ea6141ea34a6f8b1b7ec81398f64
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\99\99c9720ab356a0642a771bea13969a05
+      projectPath: Library\metadata\99\99c9720ab356a0642a771bea13969a05
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\99\99c9720ab356a0642a771bea13969a05.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\99\99c9720ab356a0642a771bea13969a05.info
+      projectPath: Library\metadata\99\99c9720ab356a0642a771bea13969a05.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+      projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: Temp\StagingArea\Mono\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\EmbedRuntime\mono.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\EmbedRuntime\mono.dll
+      projectPath: Temp\StagingArea\Mono\EmbedRuntime\mono.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Temp\StagingArea\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\1.0\machine.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\1.0\machine.config
+      projectPath: Temp\StagingArea\Mono\etc\mono\1.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: Temp\StagingArea\Mono\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Temp\StagingArea\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\2.0\machine.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\2.0\machine.config
+      projectPath: Temp\StagingArea\Mono\etc\mono\2.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\2.0\settings.map
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\2.0\settings.map
+      projectPath: Temp\StagingArea\Mono\etc\mono\2.0\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\2.0\web.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\2.0\web.config
+      projectPath: Temp\StagingArea\Mono\etc\mono\2.0\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\browscap.ini
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\browscap.ini
+      projectPath: Temp\StagingArea\Mono\etc\mono\browscap.ini
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\config
+      projectPath: Temp\StagingArea\Mono\etc\mono\config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\Mono\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\Mono\etc\mono\mconfig\config.xml
+      projectPath: Temp\StagingArea\Mono\etc\mono\mconfig\config.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\UnityCrashHandler64.exe
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\UnityCrashHandler64.exe
+      projectPath: Temp\StagingArea\UnityCrashHandler64.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\UnityPlayer.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\UnityPlayer.dll
+      projectPath: Temp\StagingArea\UnityPlayer.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\bin.exe
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin.exe
+      projectPath: Temp\StagingArea\bin.exe
+      originalPath: bin\RollToHole.exe
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\Assembly-CSharp.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\Mono.Security.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\Mono.Security.dll
+      originalPath: bin\RollToHole_Data\Managed\Mono.Security.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\System.Core.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\System.Core.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\System.Core.dll
+      originalPath: bin\RollToHole_Data\Managed\System.Core.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\System.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\System.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\System.dll
+      originalPath: bin\RollToHole_Data\Managed\System.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: bin\RollToHole_Data\Managed\Unity.TextMeshPro.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AIModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AIModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ARModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ARModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.Analytics.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.Analytics.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.Analytics.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.Analytics.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.GridModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.GridModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.InputModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.InputModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.Networking.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.Networking.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.Networking.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTracking.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.StandardEvents.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TLSModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.Timeline.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UI.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UI.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UI.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UIModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UIModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VRModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VRModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.WebModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.WebModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.WindModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.WindModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.XRModule.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.XRModule.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.XRModule.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.dll
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.dll
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\UnityEngine.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\UnityEngine.xml
+      projectPath: Temp\StagingArea\bin_Data\Managed\UnityEngine.xml
+      originalPath: bin\RollToHole_Data\Managed\UnityEngine.xml
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Managed\mscorlib.dll
+      projectPath: Temp\StagingArea\bin_Data\Managed\mscorlib.dll
+      originalPath: bin\RollToHole_Data\Managed\mscorlib.dll
+      status: 6
+      staged: 0
+    - path: "default resources\tTemp\\StagingArea\\bin_Data\\Resources\\unity default
+        resources"
+      fullPath: "C:\\Users\\Mocarnyy\\Desktop\\RollToHole\\default resources\tTemp\\StagingArea\\bin_Data\\Resources\\unity
+        default resources"
+      projectPath: "default resources\tTemp\\StagingArea\\bin_Data\\Resources\\unity
+        default resources"
+      originalPath: bin\RollToHole_Data\Resources\unity
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\Resources\unity_builtin_extra
+      projectPath: Temp\StagingArea\bin_Data\Resources\unity_builtin_extra
+      originalPath: bin\RollToHole_Data\Resources\unity_builtin_extra
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\app.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\app.info
+      projectPath: Temp\StagingArea\bin_Data\app.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\boot.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\boot.config
+      projectPath: Temp\StagingArea\bin_Data\boot.config
+      originalPath: bin\RollToHole_Data\boot.config
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\globalgamemanagers
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\globalgamemanagers
+      projectPath: Temp\StagingArea\bin_Data\globalgamemanagers
+      originalPath: bin\RollToHole_Data\globalgamemanagers
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\globalgamemanagers.assets
+      projectPath: Temp\StagingArea\bin_Data\globalgamemanagers.assets
+      originalPath: bin\RollToHole_Data\globalgamemanagers.assets
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\level0
+      projectPath: Temp\StagingArea\bin_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\level0.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\level0.resS
+      projectPath: Temp\StagingArea\bin_Data\level0.resS
+      originalPath: bin\RollToHole_Data\level0.resS
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\sharedassets0.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\sharedassets0.assets
+      projectPath: Temp\StagingArea\bin_Data\sharedassets0.assets
+      originalPath: bin\RollToHole_Data\sharedassets0.assets
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\sharedassets0.assets.resS
+      projectPath: Temp\StagingArea\bin_Data\sharedassets0.assets.resS
+      originalPath: bin\RollToHole_Data\sharedassets0.assets.resS
+      status: 6
+      staged: 0
+    - path: Temp\StagingArea\bin_Data\sharedassets0.resource
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\StagingArea\bin_Data\sharedassets0.resource
+      projectPath: Temp\StagingArea\bin_Data\sharedassets0.resource
+      originalPath: bin\RollToHole_Data\sharedassets0.resource
+      status: 6
+      staged: 0
+    - path: Temp\UnityTempFile-0127c926c6089364289d82fa020bf80b
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-0127c926c6089364289d82fa020bf80b
+      projectPath: Temp\UnityTempFile-0127c926c6089364289d82fa020bf80b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-01dc6fc4f279418439ce5968ecd7b15e
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-01dc6fc4f279418439ce5968ecd7b15e
+      projectPath: Temp\UnityTempFile-01dc6fc4f279418439ce5968ecd7b15e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-043340cf7041c1e4785b8ceccbaaa0d9
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-043340cf7041c1e4785b8ceccbaaa0d9
+      projectPath: Temp\UnityTempFile-043340cf7041c1e4785b8ceccbaaa0d9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-0a136d7a1c1f01a409c281de8f553ed8
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-0a136d7a1c1f01a409c281de8f553ed8
+      projectPath: Temp\UnityTempFile-0a136d7a1c1f01a409c281de8f553ed8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-0bfaa91165b3a284a8978b9d2f2939ac
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-0bfaa91165b3a284a8978b9d2f2939ac
+      projectPath: Temp\UnityTempFile-0bfaa91165b3a284a8978b9d2f2939ac
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-123db1d8c11c9c345b290fe75501984e
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-123db1d8c11c9c345b290fe75501984e
+      projectPath: Temp\UnityTempFile-123db1d8c11c9c345b290fe75501984e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-1632469b4a37f454189c32d7ef6d9a10
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-1632469b4a37f454189c32d7ef6d9a10
+      projectPath: Temp\UnityTempFile-1632469b4a37f454189c32d7ef6d9a10
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-19fd94973be6ffe4da0c4bc775e0a5aa
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-19fd94973be6ffe4da0c4bc775e0a5aa
+      projectPath: Temp\UnityTempFile-19fd94973be6ffe4da0c4bc775e0a5aa
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-1e3cb6ed3f322f34f8278b10594fd107
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-1e3cb6ed3f322f34f8278b10594fd107
+      projectPath: Temp\UnityTempFile-1e3cb6ed3f322f34f8278b10594fd107
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-26af3d4376af26b4dbf1960045180a48
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-26af3d4376af26b4dbf1960045180a48
+      projectPath: Temp\UnityTempFile-26af3d4376af26b4dbf1960045180a48
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-2a381a4b6f359a74eb791711438a1ea2
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-2a381a4b6f359a74eb791711438a1ea2
+      projectPath: Temp\UnityTempFile-2a381a4b6f359a74eb791711438a1ea2
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-2f7aa44e1b6aa5c409d737bc4562ae0e
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-2f7aa44e1b6aa5c409d737bc4562ae0e
+      projectPath: Temp\UnityTempFile-2f7aa44e1b6aa5c409d737bc4562ae0e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-31ed53f7b80a22143ad2da8bb7a96254
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-31ed53f7b80a22143ad2da8bb7a96254
+      projectPath: Temp\UnityTempFile-31ed53f7b80a22143ad2da8bb7a96254
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-43b416aa1e2e2c24f85282f6eac30a2d
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-43b416aa1e2e2c24f85282f6eac30a2d
+      projectPath: Temp\UnityTempFile-43b416aa1e2e2c24f85282f6eac30a2d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-43fcb59900b4c714b844e1b63272dc0d
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-43fcb59900b4c714b844e1b63272dc0d
+      projectPath: Temp\UnityTempFile-43fcb59900b4c714b844e1b63272dc0d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-4558f6cbc9193c540878b62e06477363
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-4558f6cbc9193c540878b62e06477363
+      projectPath: Temp\UnityTempFile-4558f6cbc9193c540878b62e06477363
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-4f0d77b367363ee4e84c3d0014dffa29
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-4f0d77b367363ee4e84c3d0014dffa29
+      projectPath: Temp\UnityTempFile-4f0d77b367363ee4e84c3d0014dffa29
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-50a1e6ca9755b8143b20641f8adb4b06
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-50a1e6ca9755b8143b20641f8adb4b06
+      projectPath: Temp\UnityTempFile-50a1e6ca9755b8143b20641f8adb4b06
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-538845492726bae48b86d927b8f7c050
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-538845492726bae48b86d927b8f7c050
+      projectPath: Temp\UnityTempFile-538845492726bae48b86d927b8f7c050
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-5c5a7642da8a13741a81413b37b2aa45
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-5c5a7642da8a13741a81413b37b2aa45
+      projectPath: Temp\UnityTempFile-5c5a7642da8a13741a81413b37b2aa45
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-5d18d547025cf6e46912f40785d5a446
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-5d18d547025cf6e46912f40785d5a446
+      projectPath: Temp\UnityTempFile-5d18d547025cf6e46912f40785d5a446
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-5e3ff61cc6630a94abed651eaafc65d7
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-5e3ff61cc6630a94abed651eaafc65d7
+      projectPath: Temp\UnityTempFile-5e3ff61cc6630a94abed651eaafc65d7
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-63b6148ae79817b498a0ef952f329e7f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-63b6148ae79817b498a0ef952f329e7f
+      projectPath: Temp\UnityTempFile-63b6148ae79817b498a0ef952f329e7f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-691198671bfa4924eb523ca70912248a
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-691198671bfa4924eb523ca70912248a
+      projectPath: Temp\UnityTempFile-691198671bfa4924eb523ca70912248a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-715fe1dcc7ec0a945b533c74b6f909a9
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-715fe1dcc7ec0a945b533c74b6f909a9
+      projectPath: Temp\UnityTempFile-715fe1dcc7ec0a945b533c74b6f909a9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-7773861fb924e684e819c0718beef266
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-7773861fb924e684e819c0718beef266
+      projectPath: Temp\UnityTempFile-7773861fb924e684e819c0718beef266
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-7c99180e291a6034e91a4a02c402085c
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-7c99180e291a6034e91a4a02c402085c
+      projectPath: Temp\UnityTempFile-7c99180e291a6034e91a4a02c402085c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-801e8c6266573f347b0d64433d69d3e1
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-801e8c6266573f347b0d64433d69d3e1
+      projectPath: Temp\UnityTempFile-801e8c6266573f347b0d64433d69d3e1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-8465a81027f38494c925cc077da59334
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-8465a81027f38494c925cc077da59334
+      projectPath: Temp\UnityTempFile-8465a81027f38494c925cc077da59334
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-883a9915d737e0a468ac289496e3f7ee
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-883a9915d737e0a468ac289496e3f7ee
+      projectPath: Temp\UnityTempFile-883a9915d737e0a468ac289496e3f7ee
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-8dc2f230965f1e444b2eaf8a9b547447
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-8dc2f230965f1e444b2eaf8a9b547447
+      projectPath: Temp\UnityTempFile-8dc2f230965f1e444b2eaf8a9b547447
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-947d2a5d19b41754a992cb74a752104e
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-947d2a5d19b41754a992cb74a752104e
+      projectPath: Temp\UnityTempFile-947d2a5d19b41754a992cb74a752104e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-952b59600067d5842b900a332bb5933c
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-952b59600067d5842b900a332bb5933c
+      projectPath: Temp\UnityTempFile-952b59600067d5842b900a332bb5933c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-96a47e00cfc3ed2479326dd043315d74
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-96a47e00cfc3ed2479326dd043315d74
+      projectPath: Temp\UnityTempFile-96a47e00cfc3ed2479326dd043315d74
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-a144f224ca56f884f8fda7117d4f0c7d
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-a144f224ca56f884f8fda7117d4f0c7d
+      projectPath: Temp\UnityTempFile-a144f224ca56f884f8fda7117d4f0c7d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-a401c45e8553a3a4c879f34210d82085
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-a401c45e8553a3a4c879f34210d82085
+      projectPath: Temp\UnityTempFile-a401c45e8553a3a4c879f34210d82085
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-aae4b2ffc91a92e40a0e8c9ec8770adc
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-aae4b2ffc91a92e40a0e8c9ec8770adc
+      projectPath: Temp\UnityTempFile-aae4b2ffc91a92e40a0e8c9ec8770adc
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-aaeddd48e0f312047ad8ab7c9be1c59f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-aaeddd48e0f312047ad8ab7c9be1c59f
+      projectPath: Temp\UnityTempFile-aaeddd48e0f312047ad8ab7c9be1c59f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-b3be1b5de5855be42b1530685001a894
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-b3be1b5de5855be42b1530685001a894
+      projectPath: Temp\UnityTempFile-b3be1b5de5855be42b1530685001a894
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-b3d34a17a757d9444ac4aaca7fa4b8ed
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-b3d34a17a757d9444ac4aaca7fa4b8ed
+      projectPath: Temp\UnityTempFile-b3d34a17a757d9444ac4aaca7fa4b8ed
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-b50751b7416e1ca4cb0b811393a08873
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-b50751b7416e1ca4cb0b811393a08873
+      projectPath: Temp\UnityTempFile-b50751b7416e1ca4cb0b811393a08873
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-bde9add7ecc49ec4aa8480aa0d49307f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-bde9add7ecc49ec4aa8480aa0d49307f
+      projectPath: Temp\UnityTempFile-bde9add7ecc49ec4aa8480aa0d49307f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-c4086746a2c492545a73f3535bb10395
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-c4086746a2c492545a73f3535bb10395
+      projectPath: Temp\UnityTempFile-c4086746a2c492545a73f3535bb10395
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-c5dc0f55d372a554994cae9d1d432354
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-c5dc0f55d372a554994cae9d1d432354
+      projectPath: Temp\UnityTempFile-c5dc0f55d372a554994cae9d1d432354
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-c5f136aecec0b404e9e0289e6f353117
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-c5f136aecec0b404e9e0289e6f353117
+      projectPath: Temp\UnityTempFile-c5f136aecec0b404e9e0289e6f353117
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-c7e72be7c8c0a2c4b8516a7872427099
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-c7e72be7c8c0a2c4b8516a7872427099
+      projectPath: Temp\UnityTempFile-c7e72be7c8c0a2c4b8516a7872427099
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-d5ca185d1d5016349b20b36125796067
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-d5ca185d1d5016349b20b36125796067
+      projectPath: Temp\UnityTempFile-d5ca185d1d5016349b20b36125796067
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-da670f8626257fd469579ddfc601943c
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-da670f8626257fd469579ddfc601943c
+      projectPath: Temp\UnityTempFile-da670f8626257fd469579ddfc601943c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-dc36ce3851e907648b96a7fc29371eea
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-dc36ce3851e907648b96a7fc29371eea
+      projectPath: Temp\UnityTempFile-dc36ce3851e907648b96a7fc29371eea
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-df9d9e19fdd3cfa429a83a996cb2a8ad
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-df9d9e19fdd3cfa429a83a996cb2a8ad
+      projectPath: Temp\UnityTempFile-df9d9e19fdd3cfa429a83a996cb2a8ad
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-e059d37fa7a43b44483d2f47fb76d33f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-e059d37fa7a43b44483d2f47fb76d33f
+      projectPath: Temp\UnityTempFile-e059d37fa7a43b44483d2f47fb76d33f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-e6d471be970bbf149ab050ce0e914b77
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-e6d471be970bbf149ab050ce0e914b77
+      projectPath: Temp\UnityTempFile-e6d471be970bbf149ab050ce0e914b77
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-f5845c639cf6b184c966c20edcb11b9a
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-f5845c639cf6b184c966c20edcb11b9a
+      projectPath: Temp\UnityTempFile-f5845c639cf6b184c966c20edcb11b9a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-f6da8eda819ff2943836f98b22ac6735
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-f6da8eda819ff2943836f98b22ac6735
+      projectPath: Temp\UnityTempFile-f6da8eda819ff2943836f98b22ac6735
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-faa63e00009e80e4784cedcf5beb3ea3
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-faa63e00009e80e4784cedcf5beb3ea3
+      projectPath: Temp\UnityTempFile-faa63e00009e80e4784cedcf5beb3ea3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-fbf2bb8bb96066047ac194d26178a27f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-fbf2bb8bb96066047ac194d26178a27f
+      projectPath: Temp\UnityTempFile-fbf2bb8bb96066047ac194d26178a27f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\UnityTempFile-fd7c04eb2ebf7a94e9841b8d8fe3802d
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\UnityTempFile-fd7c04eb2ebf7a94e9841b8d8fe3802d
+      projectPath: Temp\UnityTempFile-fd7c04eb2ebf7a94e9841b8d8fe3802d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Temp\tempFile.res
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\tempFile.res
+      projectPath: Temp\tempFile.res
+      originalPath: .vs\RollToHole\v15\Server\sqlite3\db.lock
+      status: 6
+      staged: 0
+    - path: Temp\tempFile.resG
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Temp\tempFile.resG
+      projectPath: Temp\tempFile.resG
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      projectPath: bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: bin\RollToHole_Data\app.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\app.info
+      projectPath: bin\RollToHole_Data\app.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: bin\RollToHole_Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\level0
+      projectPath: bin\RollToHole_Data\level0
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: bin\bin.exe
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin.exe
+      projectPath: bin\bin.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\Assembly-CSharp.dll
+      projectPath: bin\bin_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\Mono.Security.dll
+      projectPath: bin\bin_Data\Managed\Mono.Security.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\System.Core.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\System.Core.dll
+      projectPath: bin\bin_Data\Managed\System.Core.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\System.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\System.dll
+      projectPath: bin\bin_Data\Managed\System.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: bin\bin_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.Analytics.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.Analytics.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.Analytics.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.BaselibModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.BaselibModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.FacebookModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.FacebookModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.HotReloadModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.Networking.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.SubstanceModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TLSModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TLSModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TLSModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.TimelineModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.TimelineModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UI.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UmbraModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.XRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.XRModule.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.XRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.dll
+      projectPath: bin\bin_Data\Managed\UnityEngine.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\UnityEngine.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\UnityEngine.xml
+      projectPath: bin\bin_Data\Managed\UnityEngine.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Managed\mscorlib.dll
+      projectPath: bin\bin_Data\Managed\mscorlib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Resources\unity default resources
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Resources\unity
+        default resources
+      projectPath: bin\bin_Data\Resources\unity default resources
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\Resources\unity_builtin_extra
+      projectPath: bin\bin_Data\Resources\unity_builtin_extra
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\app.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\app.info
+      projectPath: bin\bin_Data\app.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\boot.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\boot.config
+      projectPath: bin\bin_Data\boot.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\globalgamemanagers
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\globalgamemanagers
+      projectPath: bin\bin_Data\globalgamemanagers
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\globalgamemanagers.assets
+      projectPath: bin\bin_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\level0
+      projectPath: bin\bin_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\level0.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\level0.resS
+      projectPath: bin\bin_Data\level0.resS
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\sharedassets0.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\sharedassets0.assets
+      projectPath: bin\bin_Data\sharedassets0.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\sharedassets0.assets.resS
+      projectPath: bin\bin_Data\sharedassets0.assets.resS
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\bin_Data\sharedassets0.resource
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\bin_Data\sharedassets0.resource
+      projectPath: bin\bin_Data\sharedassets0.resource
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: d8773ad83abb521b819c80c7553e3f9ba0b1414c
+    mergeA: 
+    mergeB: 
+    authorName: Sebastian Ciba
+    authorEmail: sebastian.ciba@o2.pl
+    commitEmail: sebastian.ciba@o2.pl
+    commitName: Sebastian Ciba
+    summary: 0.11
+    description: 0.11
+    timeString: 2018-12-29T18:49:56.000+01:00
+    commitTimeString: 2018-12-29T18:49:56.000+01:00
+    changes:
+    - path: .vs\RollToHole\v15\.suo
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\.suo
+      projectPath: .vs\RollToHole\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\.vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\RollToHole\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\_Completed-Game\Models\hole15.blend
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\Models\hole15.blend
+      projectPath: Assets\_Completed-Game\Models\hole15.blend
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\_Completed-Game\Models\hole17.blend
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\Models\hole17.blend
+      projectPath: Assets\_Completed-Game\Models\hole17.blend
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\_Completed-Game\Models\hole17.blend.meta
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\Models\hole17.blend.meta
+      projectPath: Assets\_Completed-Game\Models\hole17.blend.meta
+      originalPath: Assets\_Completed-Game\Models\hole15.blend.meta
+      status: 6
+      staged: 0
+    - path: Assets\_Completed-Game\RollToHole.unity
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Assets\_Completed-Game\RollToHole.unity
+      projectPath: Assets\_Completed-Game\RollToHole.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\globalgamemanagers
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Data\globalgamemanagers
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\level0
+      projectPath: Library\PlayerDataCache\Data\level0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\sharedassets0.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Data\sharedassets0.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\PlayerDataCache\ScriptLayoutHashes.txt
+      projectPath: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ShaderCache\7\777790b522864da0c3ef5918b10ea0d3.bin
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\ShaderCache\7\777790b522864da0c3ef5918b10ea0d3.bin
+      projectPath: Library\ShaderCache\7\777790b522864da0c3ef5918b10ea0d3.bin
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f
+      projectPath: Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f.info
+      projectPath: Library\metadata\b0\b072b401a89ca5940ad43db5ec0eb50f.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RollToHole_Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\RollToHole_Data\level0
+      projectPath: RollToHole_Data\level0
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: bin\Mono\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: bin\Mono\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: Mono\EmbedRuntime\MonoPosixHelper.dll
+      status: 6
+      staged: 0
+    - path: bin\Mono\EmbedRuntime\mono.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\EmbedRuntime\mono.dll
+      projectPath: bin\Mono\EmbedRuntime\mono.dll
+      originalPath: Mono\EmbedRuntime\mono.dll
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: bin\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\1.0\machine.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\1.0\machine.config
+      projectPath: bin\Mono\etc\mono\1.0\machine.config
+      originalPath: Mono\etc\mono\1.0\machine.config
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: bin\Mono\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: Mono\etc\mono\2.0\Browsers\Compat.browser
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: bin\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\2.0\machine.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\2.0\machine.config
+      projectPath: bin\Mono\etc\mono\2.0\machine.config
+      originalPath: Mono\etc\mono\2.0\machine.config
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\2.0\settings.map
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\2.0\settings.map
+      projectPath: bin\Mono\etc\mono\2.0\settings.map
+      originalPath: Mono\etc\mono\2.0\settings.map
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\2.0\web.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\2.0\web.config
+      projectPath: bin\Mono\etc\mono\2.0\web.config
+      originalPath: Mono\etc\mono\2.0\web.config
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\browscap.ini
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\browscap.ini
+      projectPath: bin\Mono\etc\mono\browscap.ini
+      originalPath: Mono\etc\mono\browscap.ini
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\config
+      projectPath: bin\Mono\etc\mono\config
+      originalPath: Mono\etc\mono\config
+      status: 6
+      staged: 0
+    - path: bin\Mono\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\Mono\etc\mono\mconfig\config.xml
+      projectPath: bin\Mono\etc\mono\mconfig\config.xml
+      originalPath: Mono\etc\mono\mconfig\config.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole.exe
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole.exe
+      projectPath: bin\RollToHole.exe
+      originalPath: RollToHole.exe
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      projectPath: bin\RollToHole_Data\Managed\Assembly-CSharp.dll
+      originalPath: RollToHole_Data\Managed\Assembly-CSharp.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\Mono.Security.dll
+      projectPath: bin\RollToHole_Data\Managed\Mono.Security.dll
+      originalPath: RollToHole_Data\Managed\Mono.Security.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\System.Core.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\System.Core.dll
+      projectPath: bin\RollToHole_Data\Managed\System.Core.dll
+      originalPath: RollToHole_Data\Managed\System.Core.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\System.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\System.dll
+      projectPath: bin\RollToHole_Data\Managed\System.dll
+      originalPath: RollToHole_Data\Managed\System.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: bin\RollToHole_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: RollToHole_Data\Managed\Unity.TextMeshPro.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.AIModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.AIModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ARModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ARModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.AccessibilityModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.AccessibilityModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.Analytics.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.Analytics.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.Analytics.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.Analytics.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.AnimationModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.AnimationModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.AssetBundleModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.AssetBundleModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.AudioModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.AudioModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.BaselibModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.BaselibModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.BaselibModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClothModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClothModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.CloudWebServicesModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClusterInputModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClusterInputModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.CoreModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.CoreModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.CrashReportingModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.CrashReportingModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.DirectorModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.DirectorModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.FacebookModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.FacebookModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.FacebookModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.GameCenterModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.GameCenterModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.GridModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.GridModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.HotReloadModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.HotReloadModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.HotReloadModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.IMGUIModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.IMGUIModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ImageConversionModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ImageConversionModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.InputModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.InputModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.Networking.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.Networking.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.Networking.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.Physics2DModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.Physics2DModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.PhysicsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.PhysicsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpatialTracking.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpatialTrackingModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.StandardEvents.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.SubstanceModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.SubstanceModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.SubstanceModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TLSModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TLSModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TLSModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TLSModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TerrainModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TerrainModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TextRenderingModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TextRenderingModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TilemapModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TilemapModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.Timeline.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.TimelineModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.TimelineModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.TimelineModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UI.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UI.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UI.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UIElementsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UIElementsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UIModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UIModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UNETModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UNETModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UmbraModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UmbraModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UmbraModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityConnectModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityConnectModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.VRModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.VRModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.VehiclesModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.VehiclesModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.VideoModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.VideoModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.WebModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.WebModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.WindModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.WindModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.XRModule.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.XRModule.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.XRModule.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.XRModule.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.XRModule.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.dll
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.dll
+      originalPath: RollToHole_Data\Managed\UnityEngine.dll
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\UnityEngine.xml
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\UnityEngine.xml
+      projectPath: bin\RollToHole_Data\Managed\UnityEngine.xml
+      originalPath: RollToHole_Data\Managed\UnityEngine.xml
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Managed\mscorlib.dll
+      projectPath: bin\RollToHole_Data\Managed\mscorlib.dll
+      originalPath: RollToHole_Data\Managed\mscorlib.dll
+      status: 6
+      staged: 0
+    - path: "default resources\tbin\\RollToHole_Data\\Resources\\unity default resources"
+      fullPath: "C:\\Users\\Mocarnyy\\Desktop\\RollToHole\\default resources\tbin\\RollToHole_Data\\Resources\\unity
+        default resources"
+      projectPath: "default resources\tbin\\RollToHole_Data\\Resources\\unity default
+        resources"
+      originalPath: RollToHole_Data\Resources\unity
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\Resources\unity_builtin_extra
+      projectPath: bin\RollToHole_Data\Resources\unity_builtin_extra
+      originalPath: RollToHole_Data\Resources\unity_builtin_extra
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\app.info
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\app.info
+      projectPath: bin\RollToHole_Data\app.info
+      originalPath: RollToHole_Data\app.info
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\boot.config
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\boot.config
+      projectPath: bin\RollToHole_Data\boot.config
+      originalPath: RollToHole_Data\boot.config
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\globalgamemanagers
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\globalgamemanagers
+      projectPath: bin\RollToHole_Data\globalgamemanagers
+      originalPath: RollToHole_Data\globalgamemanagers
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\globalgamemanagers.assets
+      projectPath: bin\RollToHole_Data\globalgamemanagers.assets
+      originalPath: RollToHole_Data\globalgamemanagers.assets
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\level0
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\level0
+      projectPath: bin\RollToHole_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: bin\RollToHole_Data\level0.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\level0.resS
+      projectPath: bin\RollToHole_Data\level0.resS
+      originalPath: RollToHole_Data\level0.resS
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\sharedassets0.assets
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\sharedassets0.assets
+      projectPath: bin\RollToHole_Data\sharedassets0.assets
+      originalPath: RollToHole_Data\sharedassets0.assets
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\sharedassets0.assets.resS
+      projectPath: bin\RollToHole_Data\sharedassets0.assets.resS
+      originalPath: RollToHole_Data\sharedassets0.assets.resS
+      status: 6
+      staged: 0
+    - path: bin\RollToHole_Data\sharedassets0.resource
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\RollToHole_Data\sharedassets0.resource
+      projectPath: bin\RollToHole_Data\sharedassets0.resource
+      originalPath: RollToHole_Data\sharedassets0.resource
+      status: 6
+      staged: 0
+    - path: bin\UnityCrashHandler64.exe
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\UnityCrashHandler64.exe
+      projectPath: bin\UnityCrashHandler64.exe
+      originalPath: UnityCrashHandler64.exe
+      status: 6
+      staged: 0
+    - path: bin\UnityPlayer.dll
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\bin\UnityPlayer.dll
+      projectPath: bin\UnityPlayer.dll
+      originalPath: UnityPlayer.dll
+      status: 6
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Mocarnyy\Desktop\RollToHole\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: ed0c16685398d70ae37bf2005be564bd32fc1c68
     mergeA: 
     mergeB: 

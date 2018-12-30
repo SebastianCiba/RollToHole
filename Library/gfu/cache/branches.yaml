@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:BranchesCache
   cacheType: 2
-  lastUpdatedAtString: 2018-12-29T18:43:32.100+01:00
-  initializedAtString: 2018-12-29T18:43:32.065+01:00
+  lastUpdatedAtString: 2018-12-30T03:30:04.725+01:00
+  initializedAtString: 2018-12-30T03:29:35.711+01:00
   localBranches:
   - name: master
     tracking: origin/master

@@ -63,6 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\_Completed-Game\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Rounds.cs" />
+    <Compile Include="Assets\GUI.cs" />
+    <Compile Include="Assets\sc.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Mocarnyy/Desktop/RollToHole/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
