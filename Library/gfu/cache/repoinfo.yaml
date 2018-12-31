@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:RepositoryInfoCache
   cacheType: 1
-  lastUpdatedAtString: 2018-12-31T00:42:34.554+01:00
-  initializedAtString: 2018-12-31T00:25:42.026+01:00
+  lastUpdatedAtString: 2018-12-31T08:24:46.361+01:00
+  initializedAtString: 2018-12-31T08:24:46.361+01:00
   currentGitRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/SebastianCiba/RollToHole.git
     login: 
     user: 
     host: 
@@ -24,14 +24,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/SebastianCiba/RollToHole.git
+    trackingBranch: master
   currentConfigRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/SebastianCiba/RollToHole.git
   currentHead: 

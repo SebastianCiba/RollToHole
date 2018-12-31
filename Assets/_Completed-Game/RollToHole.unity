@@ -433,6 +433,7 @@ MonoBehaviour:
   exit: {fileID: 215216190}
   spikes: {fileID: 710704561}
   Win: {fileID: 899014970}
+  Material1: {fileID: 2100000, guid: b6e8d371003408c4e8cbbe4f1bdde4e1, type: 2}
 --- !u!1 &11898268
 GameObject:
   m_ObjectHideFlags: 0

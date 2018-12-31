@@ -5,11 +5,12 @@ public class Rounds : PlayerController
     public GameObject exit;
     public GameObject spikes;
     public UnityEngine.UI.RawImage Win;
+    public Material Material1;
 
     public void StartRound()
     {
         spikes.GetComponent<Renderer>().material.color = Color.red;
-
+        
         for (int i = 0; i < cube.Length; i++)
         {
             Destroy(cube[i]);
@@ -37,7 +38,7 @@ public class Rounds : PlayerController
 
     public void RoundOne()
     {
-        //Material[] mats = Resources.LoadAll("Materials", typeof(Material)).Cast<Material>().ToArray();
+        //Object.GetComponent<MeshRenderer>().material = Material1;
         for (int i = 0; i < 5; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -104,7 +105,8 @@ public class Rounds : PlayerController
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
-            cube[i].GetComponent<Renderer>().material.color = Color.green;
+            //cube[i].GetComponent<Renderer>().material.color = Color.green;
+            cube[i].GetComponent<MeshRenderer>().material = Material1;
         }
 
         cube[0].transform.position = new Vector3(0, 0.5f, -2);

@@ -6,9 +6,11 @@ public class PlayerController : MonoBehaviour
     private int move = 0;
     private AudioSource source;
     private Rounds rounds;
-
     private float push = 130;
     private float pull = -130;
+    private KeyCode previous1;
+    private KeyCode previous2;
+
     protected bool touch = false;
     protected int round = 1;
 
@@ -24,7 +26,7 @@ public class PlayerController : MonoBehaviour
     //public List<GameObject> cubes = new List<GameObject>();
     public GameObject[] cube = new GameObject[40];
 
-    void Start()
+    private void Start()
     {
         //initObjectRound();
         rb = GetComponent<Rigidbody>();
@@ -61,7 +63,7 @@ public class PlayerController : MonoBehaviour
     //       // temporary.MovePosition(temp);
     //  //  }
     //}   
-    void TaskOnClickStart()
+    private void TaskOnClickStart()
     {
         move = 0;
         moveText.text = "Moves: " + move.ToString();
@@ -72,7 +74,7 @@ public class PlayerController : MonoBehaviour
         rounds.StartRound();
     }
 
-    void TaskOnClickTryAgain()
+    private void TaskOnClickTryAgain()
     {
         move = 0;
         moveText.text = "Moves: " + move.ToString();
@@ -83,13 +85,13 @@ public class PlayerController : MonoBehaviour
         rounds.StartRound();
     }
 
-    void TaskOnClickExit()
+    private void TaskOnClickExit()
     {
         Application.Quit();
     }
 
 
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
 
         if (collision.gameObject.CompareTag("CollisionBox"))
@@ -117,6 +119,8 @@ public class PlayerController : MonoBehaviour
             ButtonStart.gameObject.SetActive(true);
             Background.gameObject.SetActive(true);
             round++;
+            previous1 = KeyCode.V;
+            previous2 = KeyCode.V;
         }
 
         if (collision.gameObject.CompareTag("Lose"))
@@ -127,10 +131,12 @@ public class PlayerController : MonoBehaviour
             winText.text = "You Lose!";
             ButtonTryAgain.gameObject.SetActive(true);
             Background.gameObject.SetActive(true);
+            previous1 = KeyCode.V;
+            previous2 = KeyCode.V;
         }
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -140,36 +146,44 @@ public class PlayerController : MonoBehaviour
 
         if (touch == true)
         {
-            if (Input.GetKeyDown("up") || Input.GetKeyDown("w"))
+            if ((Input.GetKeyDown("up") || Input.GetKeyDown("w")) && previous1 != KeyCode.UpArrow && previous2 != KeyCode.W)
             {
                 rb.AddForce(0, 0, push, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
+                previous1 = KeyCode.UpArrow;
+                previous2 = KeyCode.W;
             }
 
-            else if (Input.GetKey("down") || Input.GetKey("s"))
+            else if ((Input.GetKey("down") || Input.GetKey("s")) && previous1 != KeyCode.DownArrow && previous2 != KeyCode.S)
             {
                 rb.AddForce(0, 0, pull, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
+                previous1 = KeyCode.DownArrow;
+                previous2 = KeyCode.S;
             }
 
-            else if (Input.GetKey("left") || Input.GetKey("a"))
+            else if ((Input.GetKey("left") || Input.GetKey("a")) && previous1 != KeyCode.LeftArrow && previous2 != KeyCode.A)
             {
                 rb.AddForce(pull, 0, 0, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
+                previous1 = KeyCode.LeftArrow;
+                previous2 = KeyCode.A;
             }
 
-            else if (Input.GetKey("right") || Input.GetKey("d"))
+            else if ((Input.GetKey("right") || Input.GetKey("d")) && previous1 != KeyCode.RightArrow && previous2 != KeyCode.D)
             {
                 rb.AddForce(push, 0, 0, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
+                previous1 = KeyCode.RightArrow;
+                previous2 = KeyCode.D;
             }
 
         }
