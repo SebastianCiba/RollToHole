@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:GitLocksCache
   cacheType: 6
-  lastUpdatedAtString: 2018-12-31T09:19:37.213+01:00
-  initializedAtString: 2018-12-31T08:47:10.154+01:00
+  lastUpdatedAtString: 2019-01-01T12:20:56.917+01:00
+  initializedAtString: 2019-01-01T10:21:09.423+01:00
   gitLocks: []
