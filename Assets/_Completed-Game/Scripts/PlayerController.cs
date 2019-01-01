@@ -21,14 +21,11 @@ public class PlayerController : MonoBehaviour
     public Button ButtonExit;
     public Button ButtonTryAgain;
     public RawImage Background;
-
-    //public List<Vector3> roundOne = new List<Vector3>();
-    //public List<GameObject> cubes = new List<GameObject>();
+    public GameObject tutorial;
     public GameObject[] cube = new GameObject[40];
 
     private void Start()
     {
-        //initObjectRound();
         rb = GetComponent<Rigidbody>();
         rounds = GetComponent<Rounds>();
         winText.text = "";
@@ -47,22 +44,7 @@ public class PlayerController : MonoBehaviour
         Background.gameObject.SetActive(true);
         
     }
-    //kamilowe rzeczy
-    //void initObjectRound()
-    //{
-    //    roundOne.Add(new Vector3(4, 0.5f, 0));
-    //    roundOne.Add(new Vector3(-6, 0.5f, 0));
-    //    roundOne.Add(new Vector3(1.5f, 0.5f, -8.69f));
-    //    roundOne.Add(new Vector3(0, 0.5f, -13.5f));
-    //    roundOne.Add(new Vector3(3, 0.5f, -14.5f));
-    //    GameObject gameObject = GameObject.Find("Cubes");
-    //    MeshFilter temp = gameObject.AddComponent<MeshFilter>();
-    //    temp.mesh = new Mesh();
-    //    //foreach(var temp in roundOne){
-    //   //     gameObject.AddComponent("Cube");
-    //       // temporary.MovePosition(temp);
-    //  //  }
-    //}   
+
     private void TaskOnClickStart()
     {
         move = 0;
@@ -72,6 +54,7 @@ public class PlayerController : MonoBehaviour
         ButtonStart.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
         rounds.StartRound();
+        tutorial.gameObject.SetActive(false);
     }
 
     private void TaskOnClickTryAgain()
@@ -185,8 +168,7 @@ public class PlayerController : MonoBehaviour
                 previous1 = KeyCode.RightArrow;
                 previous2 = KeyCode.D;
             }
-
         }
     }
 }
-//ruchome przeszkody
+// ruchome przeszkody
