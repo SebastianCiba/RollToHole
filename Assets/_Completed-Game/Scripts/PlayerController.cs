@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private float pull = -130;
     private KeyCode previous1;
     private KeyCode previous2;
+    private float startTime;
+    private bool runTime = true;
 
     protected bool touch = false;
     protected int round = 1;
@@ -23,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public RawImage Background;
     public GameObject tutorial;
     public GameObject[] cube = new GameObject[40];
+    public Text timerText;
 
     private void Start()
     {
@@ -42,7 +45,6 @@ public class PlayerController : MonoBehaviour
 
         ButtonStart.gameObject.SetActive(true);
         Background.gameObject.SetActive(true);
-        
     }
 
     private void TaskOnClickStart()
@@ -51,10 +53,13 @@ public class PlayerController : MonoBehaviour
         moveText.text = "Moves: " + move.ToString();
         winText.text = "";
 
+        timerText.gameObject.SetActive(true);
         ButtonStart.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
-        rounds.StartRound();
         tutorial.gameObject.SetActive(false);
+        runTime = true;
+        startTime = Time.time;
+        rounds.StartRound();
     }
 
     private void TaskOnClickTryAgain()
@@ -65,6 +70,8 @@ public class PlayerController : MonoBehaviour
 
         ButtonTryAgain.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
+        runTime = true;
+        startTime = Time.time;
         rounds.StartRound();
     }
 
@@ -95,6 +102,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Finish"))
         {
+            runTime = false;
             push += 10;
             pull -= 10;
             source.Play();
@@ -108,6 +116,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Lose"))
         {
+            runTime = false;
             push -= 10;
             pull += 10;
             source.Play();
@@ -121,10 +130,15 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(runTime == true)
+        {
+            ChangeTime();
+        }
+            
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
-
         }
 
         if (touch == true)
@@ -170,5 +184,16 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void ChangeTime()
+    {
+        float t = Time.time - startTime;
+        string minutes = ((int)t / 60).ToString();
+        string seconds = (t % 60).ToString("f0");
+        timerText.text = "Time: " + minutes + ":" + seconds;
+    }
 }
 // ruchome przeszkody
+// ilość prób
+
+//prefaby
