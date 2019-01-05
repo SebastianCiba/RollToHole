@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
     private bool runTime = true;
     private bool touch = false;
     private int round = 1;
+    private float actualPosition = 0;
+    private Vector3 startPosition = new Vector3(-2, 0.5f, 14);
+    private Vector3 endPosition = new Vector3(-2, 0.5f, -3.5f);
 
     public Rigidbody rb;
     public Text winText;
@@ -23,10 +26,6 @@ public class PlayerController : MonoBehaviour
     public RawImage Background;
     public GameObject tutorial;
     public Text timerText;
-
-    public Vector3 startPosition = new Vector3(-2, 0.5f, 14);
-    public Vector3 endPosition = new Vector3(-2, 0.5f, -3.5f);
-    private float pos = 0;
 
     private void Start()
     {
@@ -140,16 +139,16 @@ public class PlayerController : MonoBehaviour
 
     void moveSpikes()
     {
-        rounds.spikes.transform.position = Vector3.Lerp(startPosition, endPosition, pos);
+        rounds.spikes.transform.position = Vector3.Lerp(startPosition, endPosition, actualPosition);
         rounds.spikes.transform.Rotate(Vector3.forward);
-        pos += 0.015f;
+        actualPosition += 0.015f;
 
-        if (pos >= 0.99f)
+        if (actualPosition >= 0.99f)
         {
             Vector3 temp = startPosition;
             startPosition = endPosition;
             endPosition = temp;
-            pos = 0;
+            actualPosition = 0;
         }
     }
 
