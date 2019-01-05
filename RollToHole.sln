@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollToHole", "Assembly-CSharp.csproj", "{1B304016-F2FB-CAA0-6927-78082D2E93BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollToHole", "Assembly-CSharp-Editor-firstpass.csproj", "{D25ECDCA-63BB-CBE7-36E6-E5A6E0E2880A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{1B304016-F2FB-CAA0-6927-78082D2E93BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B304016-F2FB-CAA0-6927-78082D2E93BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B304016-F2FB-CAA0-6927-78082D2E93BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D25ECDCA-63BB-CBE7-36E6-E5A6E0E2880A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D25ECDCA-63BB-CBE7-36E6-E5A6E0E2880A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D25ECDCA-63BB-CBE7-36E6-E5A6E0E2880A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D25ECDCA-63BB-CBE7-36E6-E5A6E0E2880A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

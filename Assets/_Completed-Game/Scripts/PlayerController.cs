@@ -6,15 +6,13 @@ public class PlayerController : MonoBehaviour
     private int move = 0;
     private AudioSource source;
     private Rounds rounds;
-    private float push = 130;
-    private float pull = -130;
+    private float force = 200;
     private KeyCode previous1;
     private KeyCode previous2;
     private float startTime;
     private bool runTime = true;
-
-    protected bool touch = false;
-    protected int round = 1;
+    private bool touch = false;
+    private int round = 1;
 
     public Rigidbody rb;
     public Text winText;
@@ -24,8 +22,11 @@ public class PlayerController : MonoBehaviour
     public Button ButtonTryAgain;
     public RawImage Background;
     public GameObject tutorial;
-    public GameObject[] cube = new GameObject[40];
     public Text timerText;
+
+    public Vector3 startPosition = new Vector3(-2, 0.5f, 14);
+    public Vector3 endPosition = new Vector3(-2, 0.5f, -3.5f);
+    private float pos = 0;
 
     private void Start()
     {
@@ -45,6 +46,9 @@ public class PlayerController : MonoBehaviour
 
         ButtonStart.gameObject.SetActive(true);
         Background.gameObject.SetActive(true);
+        tutorial.gameObject.SetActive(true);
+        timerText.gameObject.SetActive(false);
+        moveText.gameObject.SetActive(false);
     }
 
     private void TaskOnClickStart()
@@ -53,13 +57,18 @@ public class PlayerController : MonoBehaviour
         moveText.text = "Moves: " + move.ToString();
         winText.text = "";
 
-        timerText.gameObject.SetActive(true);
         ButtonStart.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
         tutorial.gameObject.SetActive(false);
+
+        timerText.gameObject.SetActive(true);
+        moveText.gameObject.SetActive(true);
+
         runTime = true;
         startTime = Time.time;
-        rounds.StartRound();
+        touch = true;
+        rb.Sleep();
+        rounds.StartRound(round);
     }
 
     private void TaskOnClickTryAgain()
@@ -70,9 +79,12 @@ public class PlayerController : MonoBehaviour
 
         ButtonTryAgain.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
+
         runTime = true;
         startTime = Time.time;
-        rounds.StartRound();
+        touch = true;
+        rb.Sleep();
+        rounds.StartRound(round);
     }
 
     private void TaskOnClickExit()
@@ -103,8 +115,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Finish"))
         {
             runTime = false;
-            push += 10;
-            pull -= 10;
+            force += 20;
             source.Play();
             winText.text = "You Win!";
             ButtonStart.gameObject.SetActive(true);
@@ -117,8 +128,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Lose"))
         {
             runTime = false;
-            push -= 10;
-            pull += 10;
+            force -= 20;
             source.Play();
             winText.text = "You Lose!";
             ButtonTryAgain.gameObject.SetActive(true);
@@ -128,9 +138,26 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void moveSpikes()
+    {
+        rounds.spikes.transform.position = Vector3.Lerp(startPosition, endPosition, pos);
+        rounds.spikes.transform.Rotate(Vector3.forward);
+        pos += 0.015f;
+
+        if (pos >= 0.99f)
+        {
+            Vector3 temp = startPosition;
+            startPosition = endPosition;
+            endPosition = temp;
+            pos = 0;
+        }
+    }
+
     private void FixedUpdate()
     {
-        if(runTime == true)
+        moveSpikes();
+  
+        if (runTime == true)
         {
             ChangeTime();
         }
@@ -145,7 +172,7 @@ public class PlayerController : MonoBehaviour
         {
             if ((Input.GetKeyDown("up") || Input.GetKeyDown("w")) && previous1 != KeyCode.UpArrow && previous2 != KeyCode.W)
             {
-                rb.AddForce(0, 0, push, ForceMode.Impulse);
+                rb.AddForce(0, 0, force, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
@@ -155,7 +182,7 @@ public class PlayerController : MonoBehaviour
 
             else if ((Input.GetKey("down") || Input.GetKey("s")) && previous1 != KeyCode.DownArrow && previous2 != KeyCode.S)
             {
-                rb.AddForce(0, 0, pull, ForceMode.Impulse);
+                rb.AddForce(0, 0, -force, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
@@ -165,7 +192,7 @@ public class PlayerController : MonoBehaviour
 
             else if ((Input.GetKey("left") || Input.GetKey("a")) && previous1 != KeyCode.LeftArrow && previous2 != KeyCode.A)
             {
-                rb.AddForce(pull, 0, 0, ForceMode.Impulse);
+                rb.AddForce(-force, 0, 0, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
@@ -175,7 +202,7 @@ public class PlayerController : MonoBehaviour
 
             else if ((Input.GetKey("right") || Input.GetKey("d")) && previous1 != KeyCode.RightArrow && previous2 != KeyCode.D)
             {
-                rb.AddForce(push, 0, 0, ForceMode.Impulse);
+                rb.AddForce(force, 0, 0, ForceMode.Impulse);
                 touch = false;
                 move++;
                 moveText.text = "Moves: " + move.ToString();
@@ -193,7 +220,4 @@ public class PlayerController : MonoBehaviour
         timerText.text = "Time: " + minutes + ":" + seconds;
     }
 }
-// ruchome przeszkody
-// ilość prób
-
 //prefaby

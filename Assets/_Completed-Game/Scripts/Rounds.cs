@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
-public class Rounds : PlayerController
+public class Rounds : MonoBehaviour
 {
     public GameObject exit;
     public GameObject spikes;
@@ -12,8 +11,10 @@ public class Rounds : PlayerController
     public Material Material4;
     public Material Material5;
     public Material Material6;
+    public PlayerController playerController;
+    public GameObject[] cube = new GameObject[40];
 
-    public void StartRound()
+    public void StartRound(int round)
     {
         spikes.GetComponent<Renderer>().material.color = Color.red;
         
@@ -21,6 +22,8 @@ public class Rounds : PlayerController
         {
             Destroy(cube[i]);
         }
+
+        //playerController.Round = 4;
 
         switch (round)
         {
@@ -46,13 +49,11 @@ public class Rounds : PlayerController
                 Win.gameObject.SetActive(true);
                 break;
         }
-        
     }
 
     public void RoundOne()
     {
-        rb.transform.position = new Vector3(0, 1, 0);
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
 
         for (int i = 0; i < 5; i++)
         {
@@ -72,9 +73,7 @@ public class Rounds : PlayerController
     public void RoundTwo()
     {
         exit.transform.position = new Vector3(0, 0, 3);
-        rb.transform.position = new Vector3(0, 1, 0);
-        rb.Sleep();
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
 
         for (int i = 0; i < 23; i++)
         {
@@ -112,9 +111,8 @@ public class Rounds : PlayerController
     public void RoundThree()
     {
         exit.transform.position = new Vector3(0, 0, 0);
-        rb.transform.position = new Vector3(0, 1, 0);
-        rb.Sleep();
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
+
 
         for (int i = 0; i < 32; i++)
         {
@@ -162,12 +160,9 @@ public class Rounds : PlayerController
 
     public void RoundFour()
     {
-        spikes.SetActive(true);
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 180, 0);
-        rb.transform.position = new Vector3(0, 1, 0);
-        rb.Sleep();
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
 
         for (int i = 0; i < 33; i++)
         {
@@ -212,14 +207,12 @@ public class Rounds : PlayerController
         cube[32].transform.position = new Vector3(-7, 0.5f, 11);
     }
 
-    public void RoundFive()
+        public void RoundFive()
     {
-        spikes.SetActive(false);
+        spikes.SetActive(true);
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 180, 0);
-        rb.transform.position = new Vector3(0, 1, 0);
-        rb.Sleep();
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
 
         for (int i = 0; i < 35; i++)
         {
@@ -272,9 +265,7 @@ public class Rounds : PlayerController
         spikes.SetActive(false);
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 0, 0);
-        rb.transform.position = new Vector3(0, 1, 0);
-        rb.Sleep();
-        touch = true;
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
 
         for (int i = 0; i < 35; i++)
         {

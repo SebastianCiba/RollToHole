@@ -19,7 +19,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 4e15dcc3534dc36a76ac419785cf197a Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
-872477dc9beecc1a89dcc922ad482b7c Assembly-CSharp.dll:.PlayerController
+f2a08cc2b8b6ad13a98ce26a7645c951 Assembly-CSharp.dll:.PlayerController
 22bb40270d2bfc0d0884e2aefd3d1c60 Unity.TextMeshPro.dll:TMPro.TMP_Text
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -122,7 +122,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 36d02774f21cd7ca153f86603aefd09f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-Editor-firstpass.dll:GitHub.Unity.UnityAPIWrapper
 65c129538c3b1f07082e1ae53f0f0d47 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.CameraController
 05524b8f659e7bfe5756d1335fec24ba Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -164,9 +163,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 bcada89394089914d10ff70647b120da Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-70acdbab09e9bf4f06e61ea3e4cc8ee3 Assembly-CSharp.dll:.Rounds
+43924ae37562381c9a665c1fa5f41baf Assembly-CSharp.dll:.Rounds
 e763036081c708b34f78f5a56f72c23d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 bf22e89fa4b77e86d45d7ae313079474 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 374b7d36d8f94aa1deb1e06c687663c6 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-c217133a847826a20fa57bceb3ef3ca0 Assembly-CSharp-Editor-firstpass.dll:GitHub.Unity.ExtensionLoader
 136f28bae18bcd1072d830ee3456f3ab Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
