@@ -11,19 +11,20 @@ public class Rounds : MonoBehaviour
     public Material Material4;
     public Material Material5;
     public Material Material6;
+    public Material Material7;
     public PlayerController playerController;
-    public GameObject[] cube = new GameObject[40];
+    public GameObject[] cube;
 
     public void StartRound(int round)
     {
         spikes.GetComponent<Renderer>().material.color = Color.red;
-        
-        for (int i = 0; i < cube.Length; i++)
+
+        foreach (var t in cube)
         {
-            Destroy(cube[i]);
+            Destroy(t);
         }
 
-        //playerController.Round = 4;
+        //round = 4;
 
         switch (round)
         {
@@ -45,6 +46,9 @@ public class Rounds : MonoBehaviour
             case 6:
                 RoundSix();
                 break;
+            case 7:
+                RoundSeven();
+                break;
             default:
                 Win.gameObject.SetActive(true);
                 break;
@@ -53,9 +57,10 @@ public class Rounds : MonoBehaviour
 
     public void RoundOne()
     {
+        cube = new GameObject[5];
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
-        for (int i = 0; i < 5; i++)
+        for (var i = 0; i < 5; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
@@ -72,15 +77,45 @@ public class Rounds : MonoBehaviour
 
     public void RoundTwo()
     {
-        exit.transform.position = new Vector3(0, 0, 3);
+        cube = new GameObject[11];
+        exit.transform.position = new Vector3(0, 0, 0);
+        exit.transform.rotation = Quaternion.Euler(0, 180, 0);
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
-        for (int i = 0; i < 23; i++)
+        for (var i = 0; i < 11; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
             cube[i].GetComponent<MeshRenderer>().material = Material2;
+        }
+
+        cube[0].transform.position = new Vector3(2, 0.5f, 0);
+        cube[1].transform.position = new Vector3(1, 0.5f, -5);
+        cube[2].transform.position = new Vector3(-6, 0.5f, -4);
+        cube[3].transform.position = new Vector3(-5, 0.5f, -7);
+        cube[4].transform.position = new Vector3(6, 0.5f, -6);
+        cube[5].transform.position = new Vector3(5, 0.5f, 6);
+        cube[6].transform.position = new Vector3(-3, 0.5f, 5);
+        cube[7].transform.position = new Vector3(-2, 0.5f, 11);
+        cube[8].transform.position = new Vector3(-7, 0.5f, 0);
+        cube[9].transform.position = new Vector3(3, 0.5f, -4);
+        cube[10].transform.position = new Vector3(7, 0.5f, 5);
+    }
+
+    public void RoundThree()
+    {
+        cube = new GameObject[23];
+        exit.transform.position = new Vector3(-2, 0, 3);
+        exit.transform.rotation = Quaternion.Euler(0, 0, 0);
+        playerController.rb.transform.position = new Vector3(0, 1, 0);
+
+        for (var i = 0; i < 23; i++)
+        {
+            cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            cube[i].tag = "CollisionBox";
+            cube[i].name = "cube_" + i;
+            cube[i].GetComponent<MeshRenderer>().material = Material3;
         }
 
         cube[0].transform.position = new Vector3(5, 0.5f, 0);
@@ -108,18 +143,19 @@ public class Rounds : MonoBehaviour
         cube[22].transform.position = new Vector3(-3, 0.5f, -9);
     }
 
-    public void RoundThree()
+    public void RoundFour()
     {
+        cube = new GameObject[32];
         exit.transform.position = new Vector3(0, 0, 0);
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
 
-        for (int i = 0; i < 32; i++)
+        for (var i = 0; i < 32; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
-            cube[i].GetComponent<MeshRenderer>().material = Material3;
+            cube[i].GetComponent<MeshRenderer>().material = Material4;
         }
 
         cube[0].transform.position = new Vector3(0, 0.5f, -2);
@@ -134,7 +170,7 @@ public class Rounds : MonoBehaviour
         cube[9].transform.position = new Vector3(-4, 0.5f, -5);
         cube[10].transform.position = new Vector3(-5, 0.5f, -8);
         cube[11].transform.position = new Vector3(-10, 0.5f, -7);
-        cube[12].transform.position = new Vector3(-9, 0.5f, 10);
+        cube[12].transform.position = new Vector3(-7, 0.5f, 10);
         cube[13].transform.position = new Vector3(4, 0.5f, 9);
 
         cube[14].transform.position = new Vector3(-4, 0.5f, 8);
@@ -158,18 +194,19 @@ public class Rounds : MonoBehaviour
         cube[31].transform.position = new Vector3(3, 0.5f, -11);
     }
 
-    public void RoundFour()
+    public void RoundFive()
     {
+        cube = new GameObject[34];
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 180, 0);
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
-        for (int i = 0; i < 33; i++)
+        for (var i = 0; i < 34; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
-            cube[i].GetComponent<MeshRenderer>().material = Material4;
+            cube[i].GetComponent<MeshRenderer>().material = Material5;
         }
 
         cube[0].transform.position = new Vector3(-2, 0.5f, 0);
@@ -205,21 +242,23 @@ public class Rounds : MonoBehaviour
         cube[30].transform.position = new Vector3(-9, 0.5f, 6);
         cube[31].transform.position = new Vector3(-11, 0.5f, 3);
         cube[32].transform.position = new Vector3(-7, 0.5f, 11);
+        cube[33].transform.position = new Vector3(-10, 0.5f, 5);
     }
 
-        public void RoundFive()
+        public void RoundSix()
     {
+        cube = new GameObject[35];
         spikes.SetActive(true);
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 180, 0);
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
-        for (int i = 0; i < 35; i++)
+        for (var i = 0; i < 35; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
-            cube[i].GetComponent<MeshRenderer>().material = Material5;
+            cube[i].GetComponent<MeshRenderer>().material = Material6;
         }
 
         cube[0].transform.position = new Vector3(0, 0.5f, 2);
@@ -260,19 +299,20 @@ public class Rounds : MonoBehaviour
         cube[34].transform.position = new Vector3(6, 0.5f, 15);
     }
 
-    public void RoundSix()
+    public void RoundSeven()
     {
+        cube = new GameObject[35];
         spikes.SetActive(false);
         exit.transform.position = new Vector3(0, 0, 0);
         exit.transform.rotation = Quaternion.Euler(0, 0, 0);
         playerController.rb.transform.position = new Vector3(0, 1, 0);
 
-        for (int i = 0; i < 35; i++)
+        for (var i = 0; i < 35; i++)
         {
             cube[i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
             cube[i].tag = "CollisionBox";
             cube[i].name = "cube_" + i;
-            cube[i].GetComponent<MeshRenderer>().material = Material6;
+            cube[i].GetComponent<MeshRenderer>().material = Material7;
         }
 
         cube[0].transform.position = new Vector3(2, 0.5f, 0);

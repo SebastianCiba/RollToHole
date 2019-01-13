@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     private int move = 0;
-    private AudioSource source;
+    private AudioSource hitSound;
     private Rounds rounds;
     private float force = 200;
     private KeyCode previous1;
@@ -23,9 +23,11 @@ public class PlayerController : MonoBehaviour
     public Button ButtonStart;
     public Button ButtonExit;
     public Button ButtonTryAgain;
+    public Button ButtonMusic;
     public RawImage Background;
     public GameObject tutorial;
     public Text timerText;
+    public Text roundText;
 
     private void Start()
     {
@@ -34,33 +36,49 @@ public class PlayerController : MonoBehaviour
         winText.text = "";
         moveText.text = "Moves: 0";
 
-        Button ButtonStart1 = ButtonStart.GetComponent<Button>();
-        Button ButtonExit1 = ButtonExit.GetComponent<Button>();
-        Button ButtonTryAgain1 = ButtonTryAgain.GetComponent<Button>();
-        source = GetComponent<AudioSource>();
+        var ButtonStart1 = ButtonStart.GetComponent<Button>();
+        var ButtonExit1 = ButtonExit.GetComponent<Button>();
+        var ButtonTryAgain1 = ButtonTryAgain.GetComponent<Button>();
+        var ButtonMusic = ButtonStart.GetComponent<Button>();
+        hitSound = GetComponent<AudioSource>();
 
         ButtonStart1.onClick.AddListener(TaskOnClickStart);
         ButtonExit1.onClick.AddListener(TaskOnClickExit);
         ButtonTryAgain1.onClick.AddListener(TaskOnClickTryAgain);
+        ButtonMusic.onClick.AddListener(TaskOnClickMusic);
 
         ButtonStart.gameObject.SetActive(true);
         Background.gameObject.SetActive(true);
         tutorial.gameObject.SetActive(true);
+
         timerText.gameObject.SetActive(false);
         moveText.gameObject.SetActive(false);
+        roundText.gameObject.SetActive(false);
     }
 
     private void TaskOnClickStart()
     {
-        move = 0;
-        moveText.text = "Moves: " + move.ToString();
-        winText.text = "";
-
         ButtonStart.gameObject.SetActive(false);
         Background.gameObject.SetActive(false);
         tutorial.gameObject.SetActive(false);
 
         timerText.gameObject.SetActive(true);
+        moveText.gameObject.SetActive(true);
+        roundText.gameObject.SetActive(true);
+        
+        TaskOnClickTryAgain();
+        //menuSoundtrack.GetComponent<AudioSource>(); 
+    }
+
+    private void TaskOnClickTryAgain()
+    {
+        move = 0;
+        moveText.text = "Moves: " + move.ToString();
+        winText.text = "";
+        roundText.text = "Round: " + round + " / 7";
+
+        ButtonTryAgain.gameObject.SetActive(false);
+        Background.gameObject.SetActive(false);
         moveText.gameObject.SetActive(true);
 
         runTime = true;
@@ -70,43 +88,30 @@ public class PlayerController : MonoBehaviour
         rounds.StartRound(round);
     }
 
-    private void TaskOnClickTryAgain()
-    {
-        move = 0;
-        moveText.text = "Moves: " + move.ToString();
-        winText.text = "";
-
-        ButtonTryAgain.gameObject.SetActive(false);
-        Background.gameObject.SetActive(false);
-
-        runTime = true;
-        startTime = Time.time;
-        touch = true;
-        rb.Sleep();
-        rounds.StartRound(round);
-    }
-
-    private void TaskOnClickExit()
+    private static void TaskOnClickExit()
     {
         Application.Quit();
     }
 
+    private void TaskOnClickMusic()
+    {
+        ButtonMusic.GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
 
         if (collision.gameObject.CompareTag("CollisionBox"))
         {
-            source.Play();
+            hitSound.Play();
             rb.Sleep();
-            var v1 = new Vector3(0, 0, 0);
-            v1 = GetComponent<Rigidbody>().position;
-            float X = v1.x;
-            float Z = v1.z;
-            float Y = v1.y;
-            X = Mathf.RoundToInt(X);
-            Z = Mathf.RoundToInt(Z);
-            var v2 = new Vector3(X, Y, Z);
+            var v1 = GetComponent<Rigidbody>().position;
+            var x = v1.x;
+            var z = v1.z;
+            var y = v1.y;
+            x = Mathf.RoundToInt(x);
+            z = Mathf.RoundToInt(z);
+            var v2 = new Vector3(x, y, z);
             rb.MovePosition(v2);
             touch = true;
         }
@@ -114,47 +119,45 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Finish"))
         {
             runTime = false;
-            force += 20;
-            source.Play();
-            winText.text = "You Win!";
+            hitSound.Play();
+            round++;
+            winText.text = "Well done!";
             ButtonStart.gameObject.SetActive(true);
             Background.gameObject.SetActive(true);
-            round++;
+            moveText.gameObject.SetActive(false);
+            force += 20;
             previous1 = KeyCode.V;
             previous2 = KeyCode.V;
         }
 
-        if (collision.gameObject.CompareTag("Lose"))
-        {
-            runTime = false;
-            force -= 20;
-            source.Play();
-            winText.text = "You Lose!";
-            ButtonTryAgain.gameObject.SetActive(true);
-            Background.gameObject.SetActive(true);
-            previous1 = KeyCode.V;
-            previous2 = KeyCode.V;
-        }
+        if (!collision.gameObject.CompareTag("Lose")) return;
+        runTime = false;
+        hitSound.Play();
+        winText.text = "You Lose!";
+        ButtonTryAgain.gameObject.SetActive(true);
+        Background.gameObject.SetActive(true);
+        moveText.gameObject.SetActive(false);
+        force -= 20;
+        previous1 = KeyCode.V;
+        previous2 = KeyCode.V;
     }
 
-    void moveSpikes()
+    private void MoveSpikes()
     {
         rounds.spikes.transform.position = Vector3.Lerp(startPosition, endPosition, actualPosition);
         rounds.spikes.transform.Rotate(Vector3.forward);
         actualPosition += 0.015f;
 
-        if (actualPosition >= 0.99f)
-        {
-            Vector3 temp = startPosition;
-            startPosition = endPosition;
-            endPosition = temp;
-            actualPosition = 0;
-        }
+        if (!(actualPosition >= 0.99f)) return;
+        var temp = startPosition;
+        startPosition = endPosition;
+        endPosition = temp;
+        actualPosition = 0;
     }
 
     private void FixedUpdate()
     {
-        moveSpikes();
+        MoveSpikes();
   
         if (runTime == true)
         {
@@ -162,14 +165,14 @@ public class PlayerController : MonoBehaviour
         }
             
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }
 
-        if (touch == true)
+        if (touch == false) return;
         {
-            if ((Input.GetKeyDown("up") || Input.GetKeyDown("w")) && previous1 != KeyCode.UpArrow && previous2 != KeyCode.W)
+            if ((Input.GetKey("up") || Input.GetKey("w")) && previous1 != KeyCode.UpArrow && previous2 != KeyCode.W)
             {
                 rb.AddForce(0, 0, force, ForceMode.Impulse);
                 touch = false;
@@ -209,14 +212,14 @@ public class PlayerController : MonoBehaviour
                 previous2 = KeyCode.D;
             }
         }
+        
     }
 
     private void ChangeTime()
     {
-        float t = Time.time - startTime;
-        string minutes = ((int)t / 60).ToString();
-        string seconds = (t % 60).ToString("f0");
+        var t = Time.time - startTime;
+        var minutes = ((int)t / 60).ToString();
+        var seconds = (t % 60).ToString("f0");
         timerText.text = "Time: " + minutes + ":" + seconds;
     }
 }
-//prefaby
