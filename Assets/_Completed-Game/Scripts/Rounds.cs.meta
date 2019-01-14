@@ -3,7 +3,18 @@ guid: ba71f72dbd34f6e40b6c32fb8405ac85
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - exit: {instanceID: 0}
+  - spikes: {instanceID: 0}
+  - Win: {instanceID: 0}
+  - Material1: {instanceID: 0}
+  - Material2: {instanceID: 0}
+  - Material3: {instanceID: 0}
+  - Material4: {instanceID: 0}
+  - Material5: {instanceID: 0}
+  - Material6: {instanceID: 0}
+  - Material7: {instanceID: 0}
+  - playerController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
