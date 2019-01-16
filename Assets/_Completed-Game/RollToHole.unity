@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 7703437}
   - component: {fileID: 7703439}
   - component: {fileID: 7703440}
+  - component: {fileID: 7703441}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -219,13 +220,11 @@ MonoBehaviour:
   ButtonStart: {fileID: 1850318534}
   ButtonExit: {fileID: 1880819106}
   ButtonTryAgain: {fileID: 1447980047}
-  ButtonMusic: {fileID: 1877473999}
   Background: {fileID: 11898270}
   tutorial: {fileID: 43418386}
   timerText: {fileID: 1219863504}
   roundText: {fileID: 41921795}
-  menuMusic: {fileID: 1515565306}
-  gameMusic: {fileID: 1213351922}
+  audio: {fileID: 0}
 --- !u!54 &7703438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -357,7 +356,6 @@ MonoBehaviour:
   Material5: {fileID: 2100000, guid: f76781fac034a4341976f38f855cf6fa, type: 2}
   Material6: {fileID: 2100000, guid: fcb9686d6e7e8984ca9eac308902194b, type: 2}
   Material7: {fileID: 2100000, guid: bab8fcbd480298f4aa99d6d6b61df06d, type: 2}
-  playerController: {fileID: 7703437}
   cube:
   - {fileID: 0}
   - {fileID: 0}
@@ -399,6 +397,20 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!114 &7703441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7703432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d6076826a39a64ba3c89b5016dabc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonMusic: {fileID: 1877473999}
+  menuMusic: {fileID: 1515565306}
+  gameMusic: {fileID: 1213351922}
 --- !u!1 &11898268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,7 +2580,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1850318535}
+  m_TargetGraphic: {fileID: 899014970}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -2907,7 +2919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1880868246
 RectTransform:
   m_ObjectHideFlags: 0

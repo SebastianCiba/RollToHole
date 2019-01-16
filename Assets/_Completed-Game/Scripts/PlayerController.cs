@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts
@@ -17,7 +18,7 @@ namespace Assets.Scripts
         private float actualPosition = 0;
         private Vector3 startPosition = new Vector3(-2, 0.5f, 14);
         private Vector3 endPosition = new Vector3(-2, 0.5f, -3.5f);
-        private bool sound;
+        private AudioSource hitSound;
 
         public Rigidbody rb;
         public Text winText;
@@ -25,32 +26,25 @@ namespace Assets.Scripts
         public Button ButtonStart;
         public Button ButtonExit;
         public Button ButtonTryAgain;
-        public Button ButtonMusic;
         public RawImage Background;
         public GameObject tutorial;
         public Text timerText;
         public Text roundText;
-
-        private AudioSource hitSound;
-        public GameObject menuMusic;
-        public GameObject gameMusic;
+        public new AudioController audio;
 
         private void Start()
         {
             rb = GetComponent<Rigidbody>();
             rounds = GetComponent<Rounds>();
+            audio = GetComponent<AudioController>();
             ButtonStart.GetComponent<Button>();
             ButtonExit.GetComponent<Button>();
             ButtonTryAgain.GetComponent<Button>();
-            ButtonMusic.GetComponent<Button>();
             hitSound = GetComponent<AudioSource>();
-            menuMusic.GetComponent<GameObject>();
-            gameMusic.GetComponent<GameObject>();
 
             ButtonStart.onClick.AddListener(TaskOnClickStart);
             ButtonExit.onClick.AddListener(TaskOnClickExit);
             ButtonTryAgain.onClick.AddListener(TaskOnClickTryAgain);
-            ButtonMusic.onClick.AddListener(TaskOnClickMusic);
 
             ButtonStart.gameObject.SetActive(true);
             Background.gameObject.SetActive(true);
@@ -61,8 +55,7 @@ namespace Assets.Scripts
 
             winText.text = "";
             moveText.text = "Moves: 0";
-            sound = true;
-            PlayMusic();
+            audio.PlayMusic("menu");
         }
 
         private void TaskOnClickStart()
@@ -71,12 +64,11 @@ namespace Assets.Scripts
             Background.gameObject.SetActive(false);
             tutorial.gameObject.SetActive(false);
 
-
             timerText.gameObject.SetActive(true);
             moveText.gameObject.SetActive(true);
             roundText.gameObject.SetActive(true);
 
-            PlayMusic();
+            audio.PlayMusic("game");
             TaskOnClickTryAgain();
         }
 
@@ -89,13 +81,14 @@ namespace Assets.Scripts
 
             ButtonTryAgain.gameObject.SetActive(false);
             Background.gameObject.SetActive(false);
-            moveText.gameObject.SetActive(false);
-            PlayMusic();
+            moveText.gameObject.SetActive(true);
+            audio.PlayMusic("game");
 
             runTime = true;
             startTime = Time.time;
             touch = true;
             rb.Sleep();
+            rb.transform.position = new Vector3(0, 1, 0);
             rounds.StartRound(round);
         }
 
@@ -104,34 +97,12 @@ namespace Assets.Scripts
             Application.Quit();
         }
 
-        private void TaskOnClickMusic()
+        private void TaskOnClickButtonRound1()
         {
-            sound = !sound;
-            PlayMusic();
-        }
-
-        private void PlayMusic()
-        {
-            if (sound)
-            {
-                if (Background.IsActive())
-                {
-                    gameMusic.gameObject.SetActive(false);
-                    menuMusic.gameObject.SetActive(true);
-                }
-
-                else
-                {
-                    gameMusic.gameObject.SetActive(true);
-                    menuMusic.gameObject.SetActive(false);
-                }
-            }
-
-            else
-            {
-                gameMusic.gameObject.SetActive(false);
-                menuMusic.gameObject.SetActive(false);
-            }
+            round = 1;
+            TaskOnClickTryAgain();
+            rounds.StartRound(round);
+            ButtonStart.gameObject.SetActive(false);
         }
 
         private void OnCollisionEnter(Collision collision)
@@ -152,7 +123,7 @@ namespace Assets.Scripts
                 touch = true;
             }
 
-            if (collision.gameObject.CompareTag("Finish"))
+            else if (collision.gameObject.CompareTag("Finish"))
             {
                 runTime = false;
                 hitSound.Play();
@@ -161,23 +132,25 @@ namespace Assets.Scripts
                 ButtonStart.gameObject.SetActive(true);
                 Background.gameObject.SetActive(true);
                 moveText.gameObject.SetActive(false);
-                PlayMusic();
+                audio.PlayMusic("menu");
                 force += 20;
                 previous1 = KeyCode.V;
                 previous2 = KeyCode.V;
             }
 
-            if (!collision.gameObject.CompareTag("Lose")) return;
-            runTime = false;
-            hitSound.Play();
-            winText.text = "You Lose!";
-            ButtonTryAgain.gameObject.SetActive(true);
-            Background.gameObject.SetActive(true);
-            moveText.gameObject.SetActive(false);
-            PlayMusic();
-            force -= 20;
-            previous1 = KeyCode.V;
-            previous2 = KeyCode.V;
+            else if (collision.gameObject.CompareTag("Lose"))
+            {
+                runTime = false;
+                hitSound.Play();
+                winText.text = "You Lose!";
+                ButtonTryAgain.gameObject.SetActive(true);
+                Background.gameObject.SetActive(true);
+                moveText.gameObject.SetActive(false);
+                audio.PlayMusic("menu");
+                force -= 20;
+                previous1 = KeyCode.V;
+                previous2 = KeyCode.V;
+            }
         }
 
         private void MoveSpikes()

@@ -14,7 +14,6 @@ namespace Assets.Scripts
         public Material Material5;
         public Material Material6;
         public Material Material7;
-        public PlayerController playerController;
         public GameObject[] cube;
 
         public void StartRound(int round)
@@ -60,7 +59,8 @@ namespace Assets.Scripts
         public void RoundOne()
         {
             cube = new GameObject[5];
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
+            exit.transform.position = new Vector3(0, 0, 0);
+            exit.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             for (var i = 0; i < 5; i++)
             {
@@ -82,7 +82,6 @@ namespace Assets.Scripts
             cube = new GameObject[11];
             exit.transform.position = new Vector3(0, 0, 0);
             exit.transform.rotation = Quaternion.Euler(0, 180, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
 
             for (var i = 0; i < 11; i++)
             {
@@ -110,7 +109,6 @@ namespace Assets.Scripts
             cube = new GameObject[23];
             exit.transform.position = new Vector3(-2, 0, 3);
             exit.transform.rotation = Quaternion.Euler(0, 0, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
 
             for (var i = 0; i < 23; i++)
             {
@@ -149,8 +147,6 @@ namespace Assets.Scripts
         {
             cube = new GameObject[32];
             exit.transform.position = new Vector3(0, 0, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
-
 
             for (var i = 0; i < 32; i++)
             {
@@ -201,7 +197,6 @@ namespace Assets.Scripts
             cube = new GameObject[34];
             exit.transform.position = new Vector3(0, 0, 0);
             exit.transform.rotation = Quaternion.Euler(0, 180, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
 
             for (var i = 0; i < 34; i++)
             {
@@ -253,7 +248,6 @@ namespace Assets.Scripts
             spikes.SetActive(true);
             exit.transform.position = new Vector3(0, 0, 0);
             exit.transform.rotation = Quaternion.Euler(0, 180, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
 
             for (var i = 0; i < 35; i++)
             {
@@ -307,7 +301,6 @@ namespace Assets.Scripts
             spikes.SetActive(false);
             exit.transform.position = new Vector3(0, 0, 0);
             exit.transform.rotation = Quaternion.Euler(0, 0, 0);
-            playerController.rb.transform.position = new Vector3(0, 1, 0);
 
             for (var i = 0; i < 35; i++)
             {
